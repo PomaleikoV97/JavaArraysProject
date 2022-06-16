@@ -6,7 +6,7 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class ArrayInitializer {
-    public static final  int MAX_NUMBER = 100;
+    public static final  int MAX_NUMBER = 10;
     public static final  int MIN_NUMBER = 0;
 
     public static void userInit(int[] array) {
