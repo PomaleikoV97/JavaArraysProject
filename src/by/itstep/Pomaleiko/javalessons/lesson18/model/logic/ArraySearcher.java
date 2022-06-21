@@ -31,13 +31,4 @@ public class ArraySearcher {
         }
         return -1;
     }
-
-//    public static int findLastIndex(int[] array, int value) {
-//        int lastIndex = -1;
-//        for (int i = 0; i < array.length; i++) {
-//            if (array[i] == value) {
-//                lastIndex = i;
-//            }
-//        }
-//        return lastIndex;
 }

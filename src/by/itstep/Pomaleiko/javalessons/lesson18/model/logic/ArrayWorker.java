@@ -1,5 +1,7 @@
 package by.itstep.Pomaleiko.javalessons.lesson18.model.logic;
 
+import java.util.Scanner;
+
 public class ArrayWorker {
     public static int sum(int[] array) {
         int s = 0;
@@ -37,5 +39,15 @@ public class ArrayWorker {
     }
     public static double avg(int[] array) {
         return sum(array) * 1.0 / array.length;
+    }
+
+    public static void reverse(int[] array) {
+        int count = array.length / 2;
+
+        for (int i = 0; i < count; i++) {
+            int t = array[i];
+            array[i] = array[array.length - 1 - i];
+            array[array.length - 1 - i] = t;
+        }
     }
 }

@@ -1,7 +1,6 @@
 package by.itstep.Pomaleiko.javalessons.lesson18.controller;
 
 import by.itstep.Pomaleiko.javalessons.lesson18.model.logic.ArraySearcher;
-import by.itstep.Pomaleiko.javalessons.lesson18.model.logic.ArrayWorker;
 import by.itstep.Pomaleiko.javalessons.lesson18.util.ArrayInitializer;
 import by.itstep.Pomaleiko.javalessons.lesson18.util.Convertor;
 import by.itstep.Pomaleiko.javalessons.lesson18.view.Printer;
